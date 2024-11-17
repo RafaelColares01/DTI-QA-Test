@@ -65,3 +65,18 @@ npx cypress open
 
 - Na interface do Cypress, selecione o arquivo de teste para executá-lo.
 
+## **Estrutura do Projeto**
+
+```bash
+├── cypress/
+│   ├── e2e/
+│   │   └── login.cy.js       # Arquivo principal dos testes
+│   ├── fixtures/
+│   │   └── example.json      # Dados utilizados nos testes
+│   ├── support/
+│       └── commands.js       # Configurações adicionais (se necessário)
+├── node_modules/             # Dependências instaladas
+├── cypress.config.js         # Configurações do Cypress
+├── package.json              # Dependências e scripts do projeto
+├── README.md                 # Documentação do projeto
+```
