@@ -1,0 +1,12 @@
+{
+  "invalidEmail": {
+    "email": "email@"
+  },
+  "validEmailForCreation": {
+    "email": "valid_email@test123.com"
+  },
+  "validLogin": {
+    "email": "valid_email@testtest.com",
+    "password": "password123"
+  }
+}
